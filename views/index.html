@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <title>Curriculum Vitae</title>
+</head>
+
+<body>
+
+    <!-- Navbar component -->
+    <nav class="navbar-container">
+        <div class="navbar-logo">
+            <img class="navbar-logo-img" src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885440/logo_hkyort.png" alt="">
+        </div>
+
+        <div class="navbar-component">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#about" class="navbar-link">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#education" class="navbar-link">Education</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#experience" class="navbar-link">Experience</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#skills" class="navbar-link">Skills</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#projects" class="navbar-link">Projects</a>
+                </li>
+            </ul>
+        </div>
+
+        <button class="navbar-call-button">
+            <i class="bi bi-megaphone-fill"></i>
+        </button>
+
+        <nav class="navbar-mobile">
+            <div class="navbar-mobile-item">
+                <img class="navbar-logo-img" src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885440/logo_hkyort.png" alt="">
+            </div>
+            <div class="navbar-mobile-item">
+                <i class="bi bi-list"></i>
+            </div>
+
+        </nav>
+        <div class="navbar-mobile-menu" id="mobileMenu">
+            <ul class="navbar-mobile-list">
+                <li><a href="#about" class="navbar-link">About</a></li>
+                <li><a href="#education" class="navbar-link">Education</a></li>
+                <li><a href="#experience" class="navbar-link">Experience</a></li>
+                <li><a href="#skills" class="navbar-link">Skills</a></li>
+                <li><a href="#projects" class="navbar-link">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seccion de principal -->
+    <section class="service-container">
+        <div class="service-section">
+            <div class="service-img-container">
+                <img class="service-img" src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885441/photo_iy1vzy.png" alt="Agustin Mora Trinidad">
+            </div>
+        </div>
+        <div class="service-section service-section-right">
+            <div class="service-text-container">
+                <h1 class="main-title">
+                    <span class="main-hi">Say Hi!</span> <br>
+                    <span class="main-name">I am <span class="main-name-highlight">Agustin</span></span>
+                </h1>
+                <p id="typing-description" class="main-description"></p>
+                <button class="button-component">
+                    Let's talk!
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion de tecnologias y habilidades -->
+    <section id="skills" class="skill-container">
+        <div class="skill-section">
+            <h1 class="skill-title">
+                Explore my skills and <br> <span>technologies</span>
+            </h1>
+            <p class="skill-description">
+                Full-stack developer focused on front-end development with HTML, CSS, <br> 
+                Bootstrap, and currently learning Tailwind CSS. Back-end experience with <br> 
+                Node.js, Express.js, and MySQL, and currently exploring Docker for <br> 
+                environment management.
+            </p>
+            <i class="skill-code-icon bi bi-code-slash"></i>
+        </div>
+        <div class="skill-section">
+            <img src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885438/6_n0qwhy.png" alt="" class="skill-img">
+        </div>
+    </section>
+
+    <!-- Mapa de tarjetas -->
+    <section class="card-container-map">
+        <div class="card">
+            <div class="circle-icon-cotainer">
+                <i class="bi bi-braces"></i>
+            </div>
+            <h2 class="card-title">
+                Frontend development
+            </h2>
+            <p class="card-text">
+                Developing responsive and modern <br>
+                interfaces with HTML, CSS, and Bootstrap.<br> 
+                Currently learning Tailwind CSS to improve <br> 
+                styling efficiency.
+            </p>
+        </div>
+        <div class="card">
+            <div class="circle-icon-cotainer">
+                <i class="bi bi-hdd-rack-fill"></i>
+            </div>
+            <h2 class="card-title">
+                Backend development
+            </h2>
+            <p class="card-text">
+                Building APIs and managing databases with <br> 
+                Node.js, Express, and MySQL. Exploring Docker<br> 
+                for deployment and containers.
+            </p>
+        </div>
+        <div class="card">
+            <div class="circle-icon-cotainer">
+                <i class="bi bi-phone-fill"></i>
+            </div>
+            <h2 class="card-title">
+                UX/UI Design
+            </h2>
+            <p class="card-text">
+                User-centered design with Figma, creating<br> 
+                functional prototypes that balance <br> 
+                aesthetics and experience.
+            </p>
+        </div>
+        <div class="card">
+            <div class="circle-icon-cotainer">
+                <i class="bi bi-tools"></i>
+            </div>
+            <h2 class="card-title">
+                Webscraping & automation
+            </h2>
+            <p class="card-text">
+                Web data collection and automation using <br> 
+                Python with Selenium and Apify, applied to <br> 
+                real-world data extraction projects.
+            </p>
+        </div>
+        <div class="card">
+            <div class="circle-icon-cotainer">
+                <i class="bi bi-laptop-fill"></i>
+            </div>
+            <h2 class="card-title">
+                Responsive web design
+            </h2>
+            <p class="card-text">
+                Applying responsive design principles to <br> 
+                ensure an optimal experience on mobile <br>
+                devices, tablets, and desktop computers.
+            </p>
+        </div>
+        <div class="card">
+            <div class="circle-icon-cotainer">
+                <i class="bi bi-tablet-landscape-fill"></i>
+            </div>
+            <h2 class="card-title">
+                Wireframing & mockups
+            </h2>
+            <p class="card-text">
+                Wireframe and mockup design for <br> 
+                developing basic web projects, from landing <br> 
+                pages to dashboards for managing entire <br> 
+                applications.
+            </p>
+        </div>
+    </section>
+
+    <!-- Componente header -->
+    <section id="projects" class="header-text-component">
+        <div class="header-text-title-container">
+            <h3 class="header-text-title">
+                A collection of <span>projects</span><br> 
+                that reflect my passion <br> 
+                for <span>development!</span>
+            </h3>
+        </div>
+        <div class="header-text-description-container">
+            <p class="header-text-description">
+                Applying responsive design principles to <br> 
+                ensure an optimal experience on mobile <br> 
+                devices, tablets, and desktop computers.
+            </p>
+            <button class="button-component">
+                Contact me
+            </button>
+        </div>
+    </section>
+
+    <!-- Catalogo de proyectos -->
+    <section class="catalog-component-a">
+        <div class="catalog-section">
+            <img src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885438/2_wmys7d.png" alt="" class="catalog-img">
+        </div>
+        <div class="catalog-section">
+            <h3 class="catalog-title">
+                Fitness inventory, user, and <br> 
+                subscription manager.
+            </h3>
+            <p class="catalog-tag">
+                Personal project.
+            </p>
+            <ul class="catalog-list">
+                <li>Personal project.</li>
+                <li>Designed and implemented the website's <br> 
+                    backend using Node.js, Express.js, and MySQL.</li>
+                <li>Optimized data and transaction management <br> 
+                    through efficient CRUD.</li>
+                <li>Used Bootstrap to provide predefined styles.</li>
+                <li>Used Cloudinary for cloud image hosting.</li>
+                <li>Used Railway for cloud database hosting.</li>
+            </ul>
+            <div class="catalog-button-container">
+                <button id="fit-github" class="button-component-catalog github">
+                    <i class="bi bi-github"></i>
+                    Github 
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalogo de proyectos -->
+    <section class="catalog-component-b">
+        <div class="catalog-section">
+            <img src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885441/1_bb0jm6.png" alt="" class="catalog-img">
+        </div>
+        <div class="catalog-section">
+            <h3 class="catalog-title">
+                Recipe web application with <br> 
+                Artificial Intelligence.
+            </h3>
+            <p class="catalog-tag">
+                Graduation project.
+            </p>
+            <ul class="catalog-list">
+                <li>I developed an app that recommends recipes <br> 
+                    based on available ingredients.</li>
+                <li>I implemented integration with the OpenAI API to <br> 
+                    generate personalized meal plans.</li>
+                <li>I used Node.js, Express.js, EJS, MySQL, and CSS for <br> 
+                    the development and design of the app.</li>
+            </ul>
+            <div class="catalog-button-container">
+                <button id="github-flavorwell" class="button-component-catalog github">
+                    <i class="bi bi-github"></i>
+                    Github
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalogo de proyectos -->
+    <section class="catalog-component-a">
+        <div class="catalog-section">
+            <img src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885441/3_tmep4d.png" alt="" class="catalog-img">
+        </div>
+        <div class="catalog-section">
+            <h3 class="catalog-title">
+                Development and deployment of a <br> 
+                web platform for Avícola Nakú
+            </h3>
+            <p class="catalog-tag">
+                Project developed in professional practices as job <br> 
+                training.
+            </p>
+            <ul class="catalog-list">
+                <li>Internship - 2024</li>
+                <li>Designed and implemented the website's <br> 
+                    backend using Node.js, Express.js, and MySQL</li>
+                <li>Optimized data and transaction management <br> 
+                    using an efficient CRUD.</li>
+                <li>Deployed the application on Fly.io to ensure <br> 
+                    availability and performance.</li>
+                <li>This website is aviable in this link: <a href="https://naku.fly.dev" target="_blank">naku.fly.dev</a></li>
+            </ul>
+            <div class="catalog-button-container">
+                <button id="naku-github" class="button-component-catalog github">
+                    <i class="bi bi-github"></i>
+                    Github
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalogo de proyectos -->
+    <section class="catalog-component-b">
+        <div class="catalog-section">
+            <img src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885438/4_nx6e8r.png" alt="" class="catalog-img">
+        </div>
+        <div class="catalog-section">
+            <h3 class="catalog-title">
+                Studio Bloom Digital <br>
+                official website
+            </h3>
+            <p class="catalog-tag">
+                Freelance project.
+            </p>
+            <ul class="catalog-list">
+                <li>Landing page developed in Figma.</li>
+                <li>Static website developed with Bootstrap, HTML, <br> 
+                    and CSS.</li>
+                <li>Responsive and efficient design.</li>
+                <li>Metadata was used within the HTML pages for <br> 
+                    better browser indexing.</li>
+                <li>The website is hosted on the following domain: <br><a target="_blank" href="https://studio-bloom-digital.com/">studio-bloom-digital.com</a></li>
+            </ul>
+            <div class="catalog-button-container">
+                <button id="bloom-github" class="button-component-catalog github">
+                    <i class="bi bi-github"></i>
+                    Github
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalogo de proyectos -->
+    <section class="catalog-component-a">
+        <div class="catalog-section">
+            <img src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885438/5_urr1cp.png" alt="" class="catalog-img">
+        </div>
+        <div class="catalog-section">
+            <h3 class="catalog-title">
+                Mobile web application for patient <br> 
+                and medication management
+            </h3>
+            <p class="catalog-tag">
+                Personal project
+            </p>
+            <ul class="catalog-list">
+                <li>I developed a responsive mobile web application as a personal project.</li>
+                <li>It was developed on the Node.js platform in <br> 
+                    conjunction with Express.js, MySQL, HTML, CSS, <br> 
+                    Bootstrap 4.3, JavaScript, and Apache Cordoba.</li>
+                <li>It integrates the EJS view engine to enable more <br> 
+                    dynamic interaction with server data through <br> 
+                    RESTFul requests.</li>
+            </ul>
+            <div class="catalog-button-container">
+                <button id="santa-cruz-github" class="button-component-catalog github">
+                    <i class="bi bi-github"></i>
+                    Github
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalogo de proyectos -->
+    <section class="catalog-component-b">
+        <div class="catalog-section">
+            <img src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885438/7_sz0ob2.png" alt="" class="catalog-img">
+        </div>
+        <div class="catalog-section">
+            <h3 class="catalog-title">
+                Console program for searching for <br> 
+                businesses using the Google Maps <br> 
+                API and Selenium.
+            </h3>
+            <p class="catalog-tag">
+                Algorithm developed for Studio Bloom Digital
+            </p>
+            <ul class="catalog-list">
+                <li>Console program developed in Python.</li>
+                <li>Selenium, the Geolocation API, Beautiful Soup, <br> 
+                    and Pandas were used to develop this algorithm.</li>
+                <li>The data is stored in a MySQL database.</li>
+            </ul>
+            <div class="catalog-button-container">
+                <button id="console-github" class="button-component-catalog github">
+                    <i class="bi bi-github"></i>
+                    Github
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion de historial academico -->
+    <section id="education" class="skill-container academic">
+        <div class="skill-section">
+            <h1 class="skill-title">
+                My academic<br> <span>training</span>
+            </h1>
+            <p class="skill-description">
+                My academic training has provided me with the solid <br> 
+                foundation in engineering and technology necessary to <br> 
+                develop efficient and functionaldigital solutions.
+            </p>
+            <div class="academic-buttons-container">
+                <button id="download-cv-button" class="button-component-catalog">
+                    Download CV
+                </button>
+            </div>
+        </div>
+        <div class="skill-section">
+            <img src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885439/academic_mccj3u.jpg" alt="" class="skill-img">
+        </div>
+    </section>
+
+    <!-- Mapa de tarjetas -->
+    <section class="card-container-map">
+        <div class="card">
+            <div class="circle-icon-cotainer">
+                <i class="bi bi-mortarboard-fill"></i>
+            </div>
+            <h2 class="card-title academic-title">
+                Universidad Interserrana del estado de Puebla - Chilchotla
+            </h2>
+            <p class="card-text">
+                Lic. Ingenieria en sistemas computacionales
+            </p>
+            <p class="card-text" style="font-style: italic;">
+                2021 - 2025
+            </p>
+        </div>
+        <div class="card">
+            <div class="circle-icon-cotainer">
+                <i class="bi bi-mortarboard-fill"></i>
+            </div>
+            <h2 class="card-title academic-title">
+                CEB 6/13 “Jesus Reyes Heroles, Ciudad Serdán Pue.
+            </h2>
+            <p class="card-text">
+                Técnico en tecnologias de la información.
+            </p>
+            <p class="card-text" style="font-style: italic;">
+                2018 - 2021
+            </p>
+        </div>
+        <div class="card">
+            <div class="circle-icon-cotainer">
+                <i class="bi bi-mortarboard-fill"></i>
+            </div>
+            <h2 class="card-title academic-title">
+                Secundaria “Enrique Pestalozzi”, Aljojuca Pue.
+            </h2>
+            <p class="card-text">
+                Graduated with a general average of 9.0.
+            </p>
+            <p class="card-text" style="font-style: italic;">
+                2015 - 2018
+            </p>
+        </div>
+    </section>
+
+    <!-- Componente header -->
+    <section id="experience" class="header-text-component">
+        <div class="header-text-title-container">
+            <h3 class="header-text-title">
+                My professional <br> <span>experience</span> in <br> 
+                companies and <br> 
+                projects
+            </h3>
+        </div>
+        <div class="header-text-description-container">
+            <p class="header-text-description">
+                Throughout my career, I've had <br> 
+                the opportunity to apply my knowledge in real- <br>world settings, contributing to the <br> 
+                development of technological solutions.
+            </p>
+            <button class="button-component">
+                Contact me
+            </button>
+        </div>
+    </section>
+
+    <!-- Mapa de tarjetas -->
+    <section class="card-container-map">
+        <div class="card">
+            <div class="circle-icon-cotainer circle-white">
+                <img class="img-card" src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885440/pngnaku_gu8rxw.png" />
+            </div>
+            <h2 class="card-title academic-title">
+                Avícola Nakú
+            </h2>
+            <p class="card-text">
+                Junior web developer specializing <br> 
+                in backend. 
+            </p>
+            <p class="card-text" style="font-style: italic;">
+                June, 2024 - Junuary, 2025
+            </p>
+        </div>
+        <div class="card">
+            <div class="circle-icon-cotainer circle-white">
+                <img class="img-card" src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885439/fruitex_xpa6xf.webp"/>
+            </div>
+            <h2 class="card-title academic-title">
+                Fruitex de Mexico S.A de C.V
+            </h2>
+            <p class="card-text">
+                SAP HanaSQL support <br> 
+                assistant level 1
+            </p>
+            <p class="card-text" style="font-style: italic;">
+                Junuary, 2025 - March, 2025
+            </p>
+        </div>
+        <div class="card">
+            <div class="circle-icon-cotainer circle-white">
+                <img class="img-card" src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885439/bloom_b51hui.png" />
+            </div>
+            <h2 class="card-title academic-title">
+                Studio Bloom Digital
+            </h2>
+            <p class="card-text">
+                Web designer & <br>
+                developer junior
+            </p>
+            <p class="card-text" style="font-style: italic;">
+                Project development
+            </p>
+        </div>
+    </section>
+
+    <!-- Seccion sobre mi -->
+    <section id="about" class="skill-container">
+        <div class="skill-section">
+            <h1 class="skill-title">
+                <span>Contact</span> <br>
+                information
+            </h1>
+            <p class="skill-description">
+                Do you have an idea, a project, or just want to say hello? I'm <br> 
+                available to collaborate and chat. Let's talk!
+            </p>
+            <div class="skill-description about">
+                <p><strong>Phone: </strong>+52 (56) 6084-3490</p>
+                <p><strong>Email: </strong></p>
+                <ul class="ul-about-list">
+                    <li>agusm1253@gmail.com</li>
+                    <li>agustin.mora.trinidad@gmail.com</li>
+                    <li>202172009@uich.edu.mx</li>
+                </ul>
+                <p><strong>Address: </strong>Calle 2 Sur #4 <br>
+                    San Miguel Tecuitlapa, Aljojuca, Pue.
+                </p>
+                <div class="about-icons-container">
+                    <a href="https://github.com/agusx64" target="_blank" class="about-icon">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/agus.m_x64?igsh=YmUyY2xxdGlqMTM2" target="_blank" class="about-icon">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/1AsGwpDK1Z/" target="_blank" class="about-icon">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/agustin-mora-trinidad-8a733a2b1/" target="_blank" class="about-icon">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=525660843490&text=Hola%20Agustin,%20me%20interesa%20tu%20trabajo!" target="_blank" class="about-icon">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                    <a href="https://dribbble.com/agus_x64" target="_blank" class="about-icon">
+                        <i class="bi bi-dribbble"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="skill-section">
+            <img src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885438/about_oef8o5.jpg" alt="" class="skill-img">
+        </div>
+    </section>
+
+    <footer>
+        <div class="text-footer">
+            <div class="footer-logo">
+                <img class="footer-img" src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885440/logo_hkyort.png" alt="">
+            </div>
+            <p class="footer-text">
+                © 2025 Ing. Agustín Mora Trinidad <br>
+                Todos los derechos reservados.
+            </p>
+        </div>
+        <div class="text-footer bottom">
+            <div class="footer-logo">
+                <img class="footer-img fly" src="https://res.cloudinary.com/dohogoidz/image/upload/v1745885439/fly_o5qkw6.svg" alt="">
+            </div>
+            <p class="footer-text">Powered by Fly.io, 2025</p>
+        </div>
+    </footer>
+
+    <script src="/javascripts/index.js"></script>
+</body>
+
+</html>
