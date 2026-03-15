@@ -19,7 +19,7 @@ mobileMenuIcon.addEventListener('click', () => {
 buttonContactWhatsapp.forEach((button) => {
 
     button.addEventListener('click', () => {
-        window.open('https://api.whatsapp.com/send?phone=525660843490&text=Hola%20Agustin,%20me%20interesa%20tu%20trabajo!', '_blank');
+        window.open('https://api.whatsapp.com/send?phone=522451036485&text=Hola%20Agustin,%20me%20interesa%20tu%20trabajo!', '_blank');
     });
 
 });
